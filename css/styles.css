@@ -47,7 +47,14 @@ text-transform: uppercase;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.50;
-    letter-spacing: 0.02px;
+    letter-spacing: 0.02em;
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus,
+.header-menu-link:active 
+{
+  color: #404BBF;
 }
 
 .header-adress-link {
@@ -55,6 +62,12 @@ color:#434455;
 font-size: 16px;
 line-height: 1.50;
 letter-spacing: 0.02em;
+}
+
+.header-adress-link:hover,
+.header-adress-link:focus
+{
+    color:  #404BBF;
 }
 
 .hero{
@@ -70,6 +83,12 @@ letter-spacing: 0.02em;
     letter-spacing: 0.02em;
 }
 
+.hero-btn:hover,
+.herobtn:focus {
+  background-color: #404BBF;
+  color: #ffffff;
+}
+
 .hero-btn {
 color: #FFF;
 font-family: Roboto;
@@ -77,6 +96,7 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
+cursor: pointer;
 }
 
 .hero-btn{
@@ -123,4 +143,52 @@ letter-spacing: 0.02em;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+.portfolio-title{
+color:  #2E2F42;
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+}
+
+.portfolio-list-title{
+color:  #2E2F42;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+
+}
+
+.portfolio-list-text{
+color: #434455;
+font-size: 16px;
+line-height: 1.5; 
+letter-spacing: 0.02em;
+
+}
+
+.footer{
+    background: #2E2F42;
+}
+
+.footer-link{
+color: #F4F4FD;
+font-family: Raleway;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.footer-text{
+color:#F4F4FD;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
