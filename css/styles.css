@@ -18,8 +18,9 @@ body{
         overflow: hidden;
       } 
 
-.header{
-border-bottom: 1px solid #e7e9fc;
+header{
+padding-top: 24px;
+padding-bottom: 24px;
 }
 
 .container{
@@ -76,10 +77,9 @@ text-transform: uppercase;
 .header-navigation{
     display:flex;
     flex-grow: 1;
-    align-items: center;
 }
 
-.header-container{
+.header-conteiner{
     display:flex;
 }
 
@@ -88,17 +88,12 @@ display:flex;
 gap: 40px;
 }
 
-.header-menu-item{
-    padding: 24px 0; 
-}
-
 .header-menu-link {
     color:   #2e2f42;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.50;
     letter-spacing: 0.02em;
-    
 }
 
 .header-menu-link:hover,
@@ -109,16 +104,13 @@ gap: 40px;
 }
 
 .header-adress{
-    display:flex;
-    font-style: normal;
-
+    font-style: normal
 }
 
 .header-adress-list{
     display:flex;
     margin-left: 0 auto;
     gap: 40px;
-    padding: 24px 0; 
 }
 
 .header-adress-link {
@@ -137,11 +129,15 @@ letter-spacing: 0.02em;
 
 .hero{
     background-color:  #2E2F42;
-    padding-top: 188px;
-    padding-bottom: 188px;
+    
 }
 
-
+.hero-conteiner{
+    padding-top: 188px;
+    padding-bottom: 188px;
+    padding-left: 316px;
+    padding-right: 316px;
+}
 .hero-title{
     color:  #FFF;
     font-size: 56px;
@@ -162,7 +158,6 @@ letter-spacing: 0.02em;
   }
 
 .hero-btn {
-min-width: 169px;
 color: #FFF;
 font-family: 'Roboto', sans-serif;
 font-size: 16px;
