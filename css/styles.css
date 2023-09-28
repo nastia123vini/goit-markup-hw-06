@@ -94,6 +94,7 @@ gap: 40px;
     font-weight: 500;
     line-height: 1.50;
     letter-spacing: 0.02em;
+    padding: 188px 0;
 }
 
 .header-menu-item{
@@ -167,6 +168,7 @@ letter-spacing: 0.02em;
   }
 
 .hero-btn {
+min-width: 169px;
 color: #FFF;
 font-family: 'Roboto', sans-serif;
 font-size: 16px;
