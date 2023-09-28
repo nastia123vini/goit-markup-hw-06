@@ -94,7 +94,8 @@ gap: 40px;
     font-weight: 500;
     line-height: 1.50;
     letter-spacing: 0.02em;
-    padding: 188px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-menu-item{
@@ -139,12 +140,12 @@ letter-spacing: 0.02em;
 
 .hero{
     background-color:  #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 188px;
     
 }
 
 .hero-conteiner{
-    padding-top: 188px;
-    padding-bottom: 188px;
     padding-left: 316px;
     padding-right: 316px;
 }
