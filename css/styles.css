@@ -19,8 +19,7 @@ body{
       } 
 
 header{
-padding-top: 24px;
-padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .container{
@@ -75,6 +74,7 @@ text-transform: uppercase;
 }
 
 .header-navigation{
+    align-items: center;
     display:flex;
     flex-grow: 1;
 }
@@ -96,6 +96,11 @@ gap: 40px;
     letter-spacing: 0.02em;
 }
 
+.header-menu-item{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
 .header-menu-link:hover,
 .header-menu-link:focus,
 .header-menu-link:active 
@@ -113,6 +118,10 @@ gap: 40px;
     gap: 40px;
 }
 
+.header-adress-item{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 .header-adress-link {
 font-style: normal ;
 color:#434455;
