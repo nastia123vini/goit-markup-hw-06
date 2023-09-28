@@ -223,6 +223,7 @@ letter-spacing: 0.02em;
 .team{
     background-color: #F4F4FD;
     padding-top: 120px;
+    padding-bottom: 120px;
 }
 .team-list{
     display: flex;
@@ -247,7 +248,11 @@ letter-spacing: 0.02em;
 }
 
 .img-team{
-    margin-bottom: 32px;
+    
+}
+.conteiner-team-item{
+    padding-top: 32px; 
+    padding-bottom: 32px;
 }
 
 .team-title-item{
@@ -256,15 +261,17 @@ letter-spacing: 0.02em;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    text-align: center;
     margin-bottom: 8px;
+
 }
 
 .team-title-text{
+    text-align: center;
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-bottom: 32px;
 }
 
 .portfolio{
