@@ -315,7 +315,7 @@ letter-spacing: 0.02em;
 .social-icon-list{
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 24px;   
 }
 
 
