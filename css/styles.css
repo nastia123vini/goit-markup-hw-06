@@ -628,7 +628,7 @@ text-align: center;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
-letter-spacing: 0.002em;
+letter-spacing: 0.02em;
 margin-bottom: 16px;
 }
 
@@ -637,22 +637,22 @@ display: block;
 color:  #8E8F99;
 font-size: 12px;
 font-weight: 400;
-line-height: 1.166; 
+line-height: 1.17;  
 letter-spacing: 0.04em;
 margin-bottom: 4px;
 }
 
 .rewiev-form-field{
+background-color: transparent; 
 width: 100%;
 height: 40px;
 flex-shrink: 0;
 border-radius: 4px;
-border: 1px solid  rgba(46, 47, 66, 0.40);
 padding-left: 38px;
+border-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .rewiev-form-wrap{
-   
     margin-bottom: 8px;
 }
 
@@ -666,6 +666,7 @@ position: relative;
     left: 16px;
     transform: translateY(-50%);
     fill: #2E2F42;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .rewiev-form-field:focus{
@@ -679,6 +680,10 @@ outline-offset: 6px;
     transition: fill 250ms linear;
 }
 
+.rewiev-form-comment-wrap
+{
+    margin-bottom: 16px
+}
 .rewiev-text-message{
 width: 100%;
 height: 120px;
@@ -690,8 +695,11 @@ color: rgba(46, 47, 66, 0.40);
 font-size: 12px;
 font-size: normal;
 font-weight: 400;
-line-height: 1.16;
-letter-spacing: 0.08px;
+line-height: 1.17;
+letter-spacing: 0.04em;
+background-color: transparent;
+outline: transparent; 
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .rewiev-text-message::placeholder{
@@ -714,7 +722,7 @@ letter-spacing: 0.08px;
     border-radius: 2px;
     fill: transparent;
     margin-right: 8px;
-      
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -724,8 +732,8 @@ font-family: Roboto;
 font-size: 12px;
 font-style: normal;
 font-weight: 400;
-line-height: 1.16;
 letter-spacing: 0.04em;
+line-height: 1.17; 
 }
 
 .privacy-policy-link{
@@ -765,12 +773,7 @@ text-decoration-line: underline;
 .rewiev-form-checkbox:checked + 
 .rewiev-form-checkbox-label 
 .rewiev-form-own-chekbox{
+fill:  #F4F4FD;
 background-color:#404BBF;
-fill: #ffffff;
-}
-
-.rewiev-form-checkbox:focus + 
-.rewiev-form-checkbox-label 
-.rewiev-form-own-chekbox{
-border: 1px solid  #4D5AE5;
+border: none;
 }
