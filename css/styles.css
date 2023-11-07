@@ -618,10 +618,10 @@ max-width: 264px;
     height: 100%;
     background-color: rgba(46, 47, 66, 0.40);
     opacity: 0;
+    visibility: hidden;
     pointer-events: none;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-visibility: hidden;
 
 .backdrop.is-open{
     opacity: 1;
@@ -671,10 +671,17 @@ visibility: hidden;
     border: none;
 } 
 
+.modal-close-btn:focus,
+.modal-close-btn:focus {
+    background-color: #404BBF;
+    border: none;
+} 
+
 .close-ico-svg{
     fill: #2E2F42;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 
 .modal-close-btn:hover .close-ico-svg {
     fill: #ffffff;
@@ -711,7 +718,9 @@ height: 40px;
 flex-shrink: 0;
 border-radius: 4px;
 padding-left: 38px;
-border-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+border: 1px solid rgba(46, 47, 66, 0.4);
+outline: transparent;
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .rewiev-form-wrap{
@@ -784,7 +793,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-radius: 2px;
     fill: transparent;
     margin-right: 8px;
-    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -832,10 +841,8 @@ text-decoration-line: underline;
     transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.rewiev-form-checkbox:checked + 
-.rewiev-form-checkbox-label 
-.rewiev-form-own-chekbox{
-fill:  #F4F4FD;
-background-color:#404BBF;
-border: none;
+.rewiev-form-checkbox:checked + .rewiev-form-checkbox-label .rewiev-form-own-chekbox {
+    background-color: #404BBF;
+    border: none;
+    fill: #F4F4FD;
 }
