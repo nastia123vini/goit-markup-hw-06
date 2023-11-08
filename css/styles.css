@@ -737,6 +737,11 @@ outline-color: transparent;
 outline-offset: 6px;
 }
 
+.modal-close-btn:hover > .close-ico-svg,
+.modal-close-btn:focus > .close-ico-svg{
+    fill: #FFFFFF;
+}
+
 .rewiev-form-icon{
     fill: #2E2F42;
     position: absolute;
@@ -746,10 +751,6 @@ outline-offset: 6px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-close-btn:hover > .close-ico-svg,
-.modal-close-btn:focus > .close-ico-svg{
-    fill: #FFFFFF;
-}
 
 .rewiev-form-field:focus+.rewiev-form-icon{
     fill: #4D5AE5;
