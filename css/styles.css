@@ -731,19 +731,19 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 position: relative;
 }
 
-.rewiev-form-icon{
-    position: absolute;
-    top: 50%;
-    left: 16px;
-    transform: translateY(-50%);
-    fill: #2E2F42;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .rewiev-form-field:focus{
 border-color: #4D5AE5;
 outline-color: transparent;
 outline-offset: 6px;
+}
+
+.rewiev-form-icon{
+    fill: #2E2F42;
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .rewiev-form-field:focus+.rewiev-form-icon{
